@@ -6,7 +6,7 @@ html {
   src: url(/font/Helvetica.ttf);
 }
 
-header, .dashboard, .info {
+.dashboard, .info {
   width: 35%;
   margin: auto;
   min-width: 500px;
@@ -29,28 +29,21 @@ header, .dashboard, .info {
   background-color: white;
   box-shadow: 1px 1px 5px #888888;
   border: 1px solid #d5d5ef;
-  margin-bottom: 25px;
+  min-width: 500px;
   width: 55%;
   margin: auto;
-  min-width: 500px;
   text-align: center;
 
 }
-.stake {
-  padding-top: 50px;
-}
 
-.dashboard {
-  text-align: center;
-}
-
-.info {
+.dashboard, .info {
   text-align: center;
 }
 
 header {
-  display: flex;
+  margin: auto;
   min-width: 500px;
+  width: 100%;
 
 }
 
@@ -192,6 +185,8 @@ span {
 }
 
 #infotitle {
-  margin-top: 30px;
-  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  background-color:#f2f2f8;  min-width: 600px;
 }
