@@ -545,7 +545,7 @@ rewardlpsButton.addEventListener('click', async() => {
 });
 
 async function init() {
-    tokenContract = await new web3.eth.Contract(abiToken, "address");
+    tokenContract = await new web3.eth.Contract(abiToken, "0x7cFc3f4F091cd9eCff8Ab70fC1B84d7242FCe483");
 
     fetchValues()
     setInterval(function(){ fetchValues(); }, 5000);
