@@ -9,7 +9,7 @@ html {
 header, .dashboard, .info {
   width: 35%;
   margin: auto;
-  min-width: 400px;
+  min-width: 500px;
 
 }
 
@@ -30,10 +30,9 @@ header, .dashboard, .info {
   box-shadow: 1px 1px 5px #888888;
   border: 1px solid #d5d5ef;
   margin-bottom: 25px;
-  position: relative;
   width: 55%;
   margin: auto;
-  min-width: 400px;
+  min-width: 500px;
   text-align: center;
 
 }
@@ -51,7 +50,7 @@ header, .dashboard, .info {
 
 header {
   display: flex;
-  min-width: 900px;
+  min-width: 500px;
 
 }
 
@@ -84,7 +83,7 @@ header {
 
 #powell {
   width: 23%;
-  min-width: 400px;
+  min-width: 500px;
   border-radius: 15px;
   background-color: white;
   box-shadow: 1px 1px 5px #888888;
